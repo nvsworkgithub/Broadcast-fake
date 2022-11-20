@@ -60,6 +60,7 @@ pip3 install -r requirements.txt
 # EDIT config.py values appropriately
 python3 main.py
 ```
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/BUDDY1609/BroadcastBot&branch=main&name=nvsbroadcastbot)
 
 ## Support Group:
 
