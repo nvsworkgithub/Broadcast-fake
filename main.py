@@ -53,6 +53,7 @@ async def startprivate(client, message):
                 InlineKeyboardButton("TGNVS", url="https://t.me/tgnvs"),
                 InlineKeyboardButton( "MOVIE CHANNAL", url="https://t.me/nvsmovielink"),
              ]
+        ]
     )
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\nI'm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @NACBOTS.\n\n 🎚 use /settings"
     await message.reply_text(welcomed, reply_markup=joinButton)
