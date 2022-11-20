@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+aiofiles
+motor
+dnspython
+flask
+gunicorn
