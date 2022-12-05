@@ -47,7 +47,7 @@ async def startprivate(client, message):
             logging.info(f"#NewUser :- Name : {message.from_user.first_name} ID : {message.from_user.id}")
     joinButton = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton('join New Movie Channal ', url='https://upier.vercel.app/pay/tgnvs@axisbank')
+            [InlineKeyboardButton('join New Paid Movie Channal ', url='https://t.me/+cPPE5BMX1qFlMWRl')
              ]
         ]
     )
