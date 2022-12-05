@@ -51,7 +51,7 @@ async def startprivate(client, message):
              ]
         ]
     )
-    welcomed = f"<b>Hey {message.from_user.first_name}\nI'm am Send Movie link\nJoin Telegram Channel:-@nvsmovielink\nPowered By:- @tgnvs</b>"
+    welcomed = f"<b>Hᴇʏ{message.from_user.first_name}\nIᴍ A Bᴏᴛ Fᴏʀ Sᴇɴᴅɪɴɢ Fʀᴏᴍ Yᴏᴜʀ Cʜᴀɴɴᴇʟ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.Yᴏᴜ Cᴀɴ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ.Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅</b>"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
